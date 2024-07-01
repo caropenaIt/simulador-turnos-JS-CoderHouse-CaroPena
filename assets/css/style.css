@@ -1,3 +1,6 @@
+/*Arreglos generales*/
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -5,8 +8,96 @@
   text-align: center;
 }
 body{
-  background-color: lightblue;
+  background-color: rgb(98, 128, 230);
+  color: rgb(243, 238, 238);
+  font-family: "Playfair Display", sans-serif;
 }
-h1{
-  color: royalblue;
+h1, h2{
+  font-family: "Playwrite GB S", sans-serif;
+  color: rgb(243, 238, 238);
+}
+h3{
+  color: rgb(112, 147, 252);
+  font-family: "Playwrite GB S", sans-serif;
+}
+header, footer{
+  background-color: rgb(6, 6, 124);
+  color: whitesmoke;
+}
+footer{
+  margin-top: 10px;
+}
+.logo{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+.logo:hover{
+  scale: 1.2;
+  transform: rotate(15deg);
+}
+/*Section peluqueros*/
+#peluqueros-container{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.peluquero-card{
+border: solid 2px royalblue;
+width: 400px;
+height: 440px;
+background-color: lightblue;
+color: rgb(112, 147, 252);
+box-shadow: 4px 4px 4px 2px rgb(8, 7, 7);
+} 
+
+#peluqueros-container img{
+  width: 300px;
+  height: 250px;
+  margin: 5px;
+}
+
+button{
+  background-color: royalblue;
+  border: none;
+  width: 90px;
+  border-radius: 5px;
+  margin: 10px;
+  color: whitesmoke;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgb(120, 148, 233);
+}
+/*Section form*/
+
+  #turno-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+/*Tabla de turnos*/
+#tabla-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+table{
+  border-collapse: collapse;
+  width: 600px;
+}
+#tabla-container p{
+  border: dotted 4px rgb(247, 247, 40);
+  padding: 15px;
+}
+th, td{
+  border: solid 2px blue;
 }

@@ -1,3 +1,57 @@
-//Invocación + ejecución de las funciones
-modoClaroOscuro();
-agendarTurno();
+//Array de objetos de los peluqueros
+
+const peluqueros = [
+  {
+    id: 1,
+    nombre: "Juan",
+    especialidad: "Barbería", 
+    disponibilidad:"Martes",
+    descripcion:"Juan es un experimentado barbero experto en cortes de ayer y de hoy. Apto para hombres de todas las generaciones.",
+    horas:["12:00 hs", "13:30 hs", "15:00 hs"],
+    foto: "./assets/images/juan-barbero.png",
+  },
+  {  id: 2,
+    nombre:"Marta", 
+    especialidad: "Corte", 
+    disponibilidad:"Miércoles",
+    descripcion:"Marta es una apasionada del corte, tiene el poder de saber qué corte necesita cada cliente con solo verlos cruzar la puerta.",
+    horas:["13:00 hs", "14:45 hs", "16:00 hs"],
+    foto: "./assets/images/marta-corte.png",
+  },
+  {
+    id: 3,
+    nombre:"Rocío", 
+    especialidad: "Colorista", 
+    disponibilidad:"Jueves",
+    descripcion:"La nueva integrante de la peluquería, Rocío le encanta experimentar y probar colores nuevos. Si buscás un rotundo cambio de look, es por ahí.",
+    horas:["12:30 hs", "15:30 hs", "17:00 hs"],
+    foto: "./assets/images/rocio-colorista.png",
+  },
+  {
+    id: 4,
+    nombre:"Mario", 
+    especialidad: "Corte", 
+    disponibilidad:"Viernes",
+    descripcion:"El mejor con los niños(y grandes también), te cortás el pelo y, de paso, hacés terapia. Un peluquero tradicional.",
+    horas:["15:30 hs", "16:00 hs", "17:30 hs"],
+    foto: "./assets/images/mario-corte.png",
+  },
+  {
+    id: 5,
+    nombre:"Éric", 
+    especialidad: "Colorista", 
+    disponibilidad:"Sábado",
+    descripcion:"El más experimentado del grupo. Elige los productos de mejor calidad que mejor se adapten a tu cabello.",
+    horas:["9:30 hs", "10:00 hs", "11:00 hs"],
+    foto: "./assets/images/eric-colorista.png",
+  },
+  {
+    id: 6,
+    nombre:"Marcelo", 
+    especialidad: "Barbería", 
+    disponibilidad:"Lunes",
+    descripcion:"Marcelo busca constantemente innovar y reversionar cortes clásicos para hacer destacar su arte. Si buscás un estilo único, es el indicado.",
+    horas:["15:30 hs", "16:30 hs", "17:30 hs"],
+    foto: "./assets/images/marcelo-barberia.png",
+  },
+];
