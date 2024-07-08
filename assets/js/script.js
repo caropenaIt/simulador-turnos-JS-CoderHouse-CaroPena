@@ -1,9 +1,8 @@
 //Tomando los id de los bloques HTML
-document.addEventListener("DOMContentLoaded", () => {
-  const peluquerosContainer = document.getElementById('peluqueros-container');
-  const formContainer = document.getElementById('form-container');
-  const mensajeContainer = document.getElementById('mensaje-container');
-  const tablaContainer = document.getElementById('tabla-container');
+const peluquerosContainer = document.querySelector('#peluqueros-container');
+const formContainer = document.querySelector('#form-container');
+const mensajeContainer = document.querySelector('#mensaje-container');
+const tablaContainer = document.querySelector('#tabla-container');
 
 //Creación de tarjetas
   peluqueros.forEach(peluquero => {
@@ -146,4 +145,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Mostrar turnos agendados al cargar la página
   turnosAgendados();
-});
+;
