@@ -101,3 +101,7 @@ table{
 th, td{
   border: solid 2px blue;
 }
+/* CSS del SweetAlert */
+.custom-button{
+  background-color: rgb(120, 148, 233);
+}
